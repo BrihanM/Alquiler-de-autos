@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.containerI {
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    margin: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #d74849;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #030222;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #030222;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #d74849;
+}
+
+a:hover {
+    color: #d74849;
+}
+
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+.containerR {
+    margin-top: 4rem;
+    width: 400px;
+    height: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form {
+    margin: 20px;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: px;
+    color: #000000;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    margin-right: 100remx;
+}
+
+
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #030222;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c2363b;
+}

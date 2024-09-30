@@ -1,0 +1,48 @@
+/*--------      filtross       ------------------------*/
+.caja{
+    background-color: #ffffff;
+}
+
+.filters {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.filter {
+    margin-bottom: 10px;
+}
+
+.filter input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.filter .description {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.range-filter {
+    display: flex;
+    align-items: center;
+}
+
+.range-value {
+    margin-left: 10px;
+}
+
+/*--------     carros      ------------------------opcional son cuadros*/
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:#888
+}
+
+.producto {
+    width: 320px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+

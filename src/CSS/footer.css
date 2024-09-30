@@ -1,0 +1,29 @@
+.pie{
+	width: 100%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.cajaspie{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.cajaspie1{
+	width: 33%;
+	float: left;
+	padding-left: 2%;
+    padding: 2%;
+	color: #000000;
+}
+
+.redes{
+	width: 33%;
+	float: left;
+	text-align:center;
+}
+
+h1{
+	color: #d74849;
+}
