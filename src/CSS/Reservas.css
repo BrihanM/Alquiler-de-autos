@@ -1,0 +1,86 @@
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 450px; /* Ajusta el margen izquierdo para que no se superponga con el menú */
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.h1-tittle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para los botones de acción */
+.edit-btn,
+.cancel-btn {
+    width: 100%;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.cancel-btn:hover {
+    background-color: #e53935;
+}
+
+/* Estilos para la tabla de reservas */
+#reservas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#reservas-table th,
+#reservas-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
+#reservas-table th {
+    background-color: #e26d19;
+    color: rgb(249, 249, 249);
+}
+
+#reservas-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#reservas-table tr:hover {
+    background-color: #ddd;
+}

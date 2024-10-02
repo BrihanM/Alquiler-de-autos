@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/Contactanos.css'
+import '../CSS/MenuAdmin.css'
 
 const Contactanos = () => {
   return (
