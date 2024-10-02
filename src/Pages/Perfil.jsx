@@ -27,7 +27,7 @@ const Contactanos = () => {
                 <label for="confirm-password">Contraseña nueva:</label>
                 <input type="password" id="confirm-password" name="confirm-password" required/>
             </div>
-            <button type="submit">Guardar Cambios</button>
+            <button type="submit" class="button-add">Guardar Cambios</button>
         </form>
     </div>
     </div>

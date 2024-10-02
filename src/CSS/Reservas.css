@@ -32,21 +32,22 @@ input {
 /* Estilos para los botones de acción */
 .edit-btn,
 .cancel-btn {
-    width: 100%;
+    width: 50%;
     padding: 8px 12px;
-    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-right: 2px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .edit-btn {
-    background-color: #4CAF50;
+    background-color: #4caf4f;
     color: white;
 }
 
 .cancel-btn {
-    background-color: #f44336;
+    background-color: #c2363b;
     color: white;
 }
 
@@ -73,7 +74,7 @@ input {
 }
 
 #reservas-table th {
-    background-color: #e26d19;
+    background-color: #030222;
     color: rgb(249, 249, 249);
 }
 

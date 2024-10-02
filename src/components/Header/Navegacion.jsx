@@ -24,6 +24,8 @@ const Navegacion = () => {
           <Link to="/alquiler">Inicio</Link>
           <Link to="/reservas">Mis Reservas</Link>
           <Link to="/contactanos">Contactanos</Link>
+          <Link to="/perfil">Mi perfil</Link>
+          <Link to="/admin">Perfil ADMIN</Link>
           <Button className="profile" onClick={handleOpenModal}>
             Iniciar Sesion
           </Button>

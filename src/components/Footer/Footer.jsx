@@ -10,7 +10,7 @@ const Footer = () => {
     <div>
       <footer class="pie">
         <article class="cajaspie1">
-        <h3> 2023 Agencia De Tranporte Zambrano </h3>
+        <h3> 2024 Agencia De Tranporte Zambrano </h3>
       <h3>Todos los derechos reservados</h3>
       <h3>Politicas de uso y seguridad</h3>
       <h3>Politica de privacidad y ley de datos personales</h3>
