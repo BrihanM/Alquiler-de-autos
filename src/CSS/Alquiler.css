@@ -1,42 +1,47 @@
 /*--------      filtross       ------------------------*/
 .caja{
-    background-color: #ffffff;
+    background-image:url(../Imagenes/main/banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 10%;
+    margin-top: 0%;
+    width: 100%;
+    height: 350px;
+
 }
 
 .filters {
-    border: 1px solid #ccc;
     padding: 20px;
+    text-align:right
 }
 
 .filter {
     margin-bottom: 10px;
+
+    
 }
 
 .filter input[type="checkbox"] {
     margin-right: 5px;
+  
 }
 
 .filter .description {
     font-size: 0.8em;
-    color: #888;
+    color: #ffffff;
+
 }
 
-.range-filter {
-    display: flex;
-    align-items: center;
-}
 
-.range-value {
-    margin-left: 10px;
-}
 
 /*--------     carros      ------------------------opcional son cuadros*/
 
 .productos {
-    display: flex;
+    margin-left: 10px;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background:#888
+    justify-self: center;
+
 }
 
 .producto {
@@ -44,5 +49,13 @@
     margin: 10px;
     border: 1px solid #ccc;
     padding: 1px;
+    
 }
+.nombrecarro{
+    color: #000000;
+    text-align: center;
 
+}
+.precio{
+    color: #000000;
+}
